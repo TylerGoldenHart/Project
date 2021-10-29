@@ -1,0 +1,22 @@
+@page "/project"
+@using BlazorApp.Shared 
+@inject HttpClient Http
+@model Index2Model
+
+<h1>Project</h1>
+
+<p>This component demonstrates averaging 3 numbers</p>
+
+@if (average_numbers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+<h3>Average</h3>
+<p>
+    @Model.Message
+</p>
+
+  
+}
