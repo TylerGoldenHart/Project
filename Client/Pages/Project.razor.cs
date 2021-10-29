@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace Project.Pages
 {
 
-    public partial class Average
+    public partial class Project
     {
         public int num1 = 0;
         public int num2 = 0;
