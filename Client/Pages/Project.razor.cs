@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Project.Pages
+namespace BlazorApp.Client
 {
 
     public partial class Project
