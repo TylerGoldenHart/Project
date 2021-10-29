@@ -18,7 +18,7 @@ public class Project
     [Range(1, 99, ErrorMessage = "Number invalid.")]
     public int num3 { get; set; }
     
-    avg = (num1 + num2 + num3) / 3;
+    public int avg = (num1 + num2 + num3) / 3;
 }
 
 public class Index2Model : PageModel
