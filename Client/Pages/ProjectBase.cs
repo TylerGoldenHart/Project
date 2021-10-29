@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Components;
 using System.Threading.Tasks;
 
-namespace Project.Pages
+namespace BlazorApp.Client
 {
     public class ProjectBase : ComponentBase
     {
