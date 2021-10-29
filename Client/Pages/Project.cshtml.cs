@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore.InMemory;
 namespace RazorPagesIntro.Pages {
 public class Project
 {
+    int num1,num2,num3,avg;
+    
     [Range(1, 99, ErrorMessage = "Number invalid.")]
     public int num1 { get; set; }
     
